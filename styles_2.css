@@ -1,14 +1,53 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    text-align: center;
 }
+
+/* Header */
 header {
     background-color: #004d99;
     color: white;
-    text-align: center;
     padding: 20px;
 }
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #0088cc;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+nav ul li a:hover {
+    background-color: #0066aa;
+}
+
+/* Hero Section */
 .hero img {
-    width: 100%;
-    height: auto;
+    width: 80%;
+    transition: transform 0.5s ease-in-out;
+}
+.hero img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Footer */
+footer {
+    background-color: #004d99;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
 }
